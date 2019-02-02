@@ -1,0 +1,14 @@
+<h5>Name:</h5>
+<%= @product.name%>
+<h5>Price:</h5>
+<%= @product.price%>
+<h5>Description:</h5>
+<%= @product.description%>
+<h5>Favourite</h5>
+<%= @product.favourite %>
+<h5>Image:</h5>
+<%= image_tag @product.image,width: '100px'%>
+
+
+
+<%= link_to 'back', products_path, class: 'btn btn-success'%>
